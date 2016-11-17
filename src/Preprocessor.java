@@ -20,13 +20,32 @@ public class Preprocessor {
 	public static final String PARENTHESIS_FEATURE = "parenthesis";
 	public static final String KM_FEATURE = "km";
 	public static final String RS_FEATURE = "r$";
+	public static final String LENGTH_BIGGER_THEN_4_FEATURE = "LENGTH_BIGGER_THEN_4";
 
 
 	public static void main(String[] args) throws IOException{
 		Preprocessor pro = new Preprocessor();
 		
-		pro.generateProcessedTrain("training/raw/", "processedTraining");
-		pro.generateProcessedTest("test/raw/", "test/processed/");
+		pro.generateProcessedTrain("train/raw/", "processedTrain");
+		//pro.generateProcessedTest("test/raw/", "test/processed/");
+	}
+	
+	private void addFeature(ArrayList<ArrayList<String>> ar, String pattern, String feature){
+		String f1;
+		
+
+		for(int x=0;x<ar.size();x++){
+			f1 = ar.get(x).get(0);
+
+			Pattern pat = Pattern.compile(pattern);
+			Matcher mt = pat.matcher(f1);
+			if(mt.find() ){
+				System.out.println(f1 + " " +feature + " " +mt.find());
+				
+				ar.get(x).add(1, feature);
+			}
+			
+		}
 	}
 
 	private void generateProcessedTest(String raw, String processed) throws IOException {
@@ -120,7 +139,6 @@ public class Preprocessor {
 			words = line.split(" ");
 
 			for(String word : words){
-
 				ar.get(ar.size() -1).add(word);
 			}
 		}	
@@ -132,17 +150,17 @@ public class Preprocessor {
 	public ArrayList<ArrayList<String>> processInstance(ArrayList<ArrayList<String>> ar){
 		
 		addFeature(ar,"[0-9]", NUMERICAL_FEATURE);
-		addFeature(ar,".*[0-9].*", NUMERICAL_AND_OTHER_FEATURE);
-		addFeature(ar,"([0-9][^0-9]+)|([^0-9][0-9]+)", NUMERICAL_AND_OTHER_FEATURE);
+		addFeature(ar,"([0-9][^0-9]+)|([^0-9]+[0-9])", NUMERICAL_AND_OTHER_FEATURE);
 		addFeature(ar,"[A-Z]", CAPITALIZED_FEATURE);
-		addFeature(ar,"\b[A-Z]+\b",ALL_CAPITALIZED_FEATURE);
-		addFeature(ar,"(|)", PARENTHESIS_FEATURE);
-		addFeature(ar,".", DOT_FEATURE);
+		addFeature(ar,"\\b[A-Z]+\\b",ALL_CAPITALIZED_FEATURE);
+		addFeature(ar,"\\(.*\\)", PARENTHESIS_FEATURE);
+		addFeature(ar,"\\.", DOT_FEATURE);
+		addFeature(ar,".....", LENGTH_BIGGER_THEN_4_FEATURE);
 		
 		toLowerCase(ar);
 		
 		addFeature(ar,"km", KM_FEATURE);
-		addFeature(ar,"r$", RS_FEATURE);
+		addFeature(ar,"r\\$", RS_FEATURE);
 		
 		addSequenceOrderFeature(ar);
 		
@@ -164,22 +182,5 @@ public class Preprocessor {
 		}
 
 	}
-
-	private void addFeature(ArrayList<ArrayList<String>> ar, String pattern, String feature){
-		String f1;
-		Pattern pat = Pattern.compile(pattern);
-
-		for(int x=0;x<ar.size();x++){
-			f1 = ar.get(x).get(0);
-
-			Matcher mt = pat.matcher(f1);
-			if(mt.find()) ar.get(x).add(1, feature);
-		}
-	}
-
-
-
-
-
 
 }
