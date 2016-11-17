@@ -27,7 +27,7 @@ public class Preprocessor {
 		Preprocessor pro = new Preprocessor();
 		
 		pro.generateProcessedTrain("train/raw/", "processedTrain");
-		//pro.generateProcessedTest("test/raw/", "test/processed/");
+		pro.generateProcessedTest("test/raw/", "test/processed/");
 	}
 	
 	private void addFeature(ArrayList<ArrayList<String>> ar, String pattern, String feature){
