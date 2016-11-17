@@ -26,7 +26,7 @@ public class Preprocessor {
 	public static void main(String[] args) throws IOException{
 		Preprocessor pro = new Preprocessor();
 		
-		pro.generateProcessedTrain("train/raw/", "processedTrain");
+		pro.generateProcessedTrain("train/raw/", "train/processedTrain");
 		pro.generateProcessedTest("test/raw/", "test/processed/");
 	}
 	
@@ -40,8 +40,6 @@ public class Preprocessor {
 			Pattern pat = Pattern.compile(pattern);
 			Matcher mt = pat.matcher(f1);
 			if(mt.find() ){
-				System.out.println(f1 + " " +feature + " " +mt.find());
-				
 				ar.get(x).add(1, feature);
 			}
 			
