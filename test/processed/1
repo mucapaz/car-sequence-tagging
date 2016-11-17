@@ -1,0 +1,10 @@
+fiat 1 all_capitalized capitalized
+mobi 2 all_capitalized capitalized
+1.0 3 dot numerical_and_other numerical
+evo 4 all_capitalized capitalized
+easy 5 all_capitalized capitalized
+on 6 all_capitalized capitalized
+8v 7 capitalized numerical_and_other numerical
+flex 8 all_capitalized capitalized
+4p 9 capitalized numerical_and_other numerical
+manual 10 length_bigger_then_4 all_capitalized capitalized
