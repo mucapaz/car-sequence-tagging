@@ -8,6 +8,6 @@ This project's goal is to use Mallet Sequence Tagging API to extract information
   - Samuel Paz <spm@cin.ufpe.br>
   
 ## Dependencies
-  -  Depends on Mallet. The mallet jar is bundled with 
-     this but you should see http://mallet.cs.umass.edu for license 
-     details etc.
+  -  Depends on Mallet. The mallet jar is bundled with this but you should see http://mallet.cs.umass.edu for license 
+     details etc. I'm using my fork's version of Mallet: https://github.com/mimno/Mallet/pull/86 in order to report precision,
+     recall and F1 automatically.
