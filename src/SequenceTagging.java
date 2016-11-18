@@ -8,61 +8,63 @@ import java.util.ArrayList;
 import cc.mallet.fst.SimpleTagger;
 
 public class SequenceTagging {
-	
+
 	public static void main(String[] args) throws Exception{
-		
-		boolean mode = false;
-		
-		if(mode){
+
+		int  mode = 2;
+
+		if(mode == 0){
 			String ar1[] = {"--train", "true", "--model-file", "carCRF","train/processedTrain"};
 			SimpleTagger.main(ar1);
-		}else{
-			
-			
-		    
-		    ArrayList<String> ar = new ArrayList<String>(); 
-		    
-		    for(File file : new File("test/processed/").listFiles() ){
-		    	BufferedReader bf = new BufferedReader(new FileReader(file));
-		    	String line;
-		    	while((line = bf.readLine()) != null){
-		    		ar.add(line.split(" ")[0]);
-		    	}
-		    	bf.close();
-		    
-		    	ByteArrayOutputStream baos = new ByteArrayOutputStream();
-			    PrintStream ps = new PrintStream(baos);		
-			    PrintStream old = System.out;
-			    System.setOut(ps);
-		    	
-		    	String[] ar2 = {"--model-file", "carCRF",  file.getAbsolutePath()};
-			    SimpleTagger.main(ar2);
-		    	
-			    String[] labels = baos.toString().split("\\r\\n|\\n|\\r");
-			    
-			    System.out.flush();
-			    System.setOut(old);
-			    
-			    if(labels.length != ar.size()) throw new Exception("Different number of labels main features");
-			    
-			    for(int x=0;x<labels.length;x++){
-			    	System.out.println(labels[x] + ": " + ar.get(x));
-			    }
-			    
-			    System.out.println();
-			    
-			    ar.clear();
-		    }
-		    		    
-			
-		    
-		}
-		
+		}else if(mode == 1){
 
-		
-	    
-	    
-	    
+			ArrayList<String> ar = new ArrayList<String>(); 
+
+			for(File file : new File("test/processed/").listFiles() ){
+				BufferedReader bf = new BufferedReader(new FileReader(file));
+				String line;
+				while((line = bf.readLine()) != null){
+					ar.add(line.split(" ")[0]);
+				}
+				bf.close();
+
+				ByteArrayOutputStream baos = new ByteArrayOutputStream();
+				PrintStream ps = new PrintStream(baos);		
+				PrintStream old = System.out;
+				System.setOut(ps);
+
+				String[] ar2 = {"--test", "perclass" , "--model-file", "carCRF",  file.getAbsolutePath()};
+				SimpleTagger.main(ar2);
+
+				String[] labels = baos.toString().split("\\r\\n|\\n|\\r");
+
+				System.out.flush();
+				System.setOut(old);
+
+				if(labels.length != ar.size()) throw new Exception("Different number of labels main features");
+
+				for(int x=0;x<labels.length;x++){
+					System.out.println(labels[x] + ": " + ar.get(x));
+				}
+
+				System.out.println();
+
+				ar.clear();
+			}
+
+		}else if(mode == 2){
+
+			for(File file : new File("test/labeled/").listFiles() ){
+				String[] ar2 = {"--test", "perclass" , "--model-file", "carCRF",  file.getAbsolutePath()};
+				SimpleTagger.main(ar2);
+			}
+		}
+
+
+
+
+
+
 	}
 
 }
