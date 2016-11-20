@@ -11,7 +11,7 @@ public class SequenceTagging {
 
 	public static void main(String[] args) throws Exception{
 
-		int  mode = 2;
+		int  mode = 0;
 
 		if(mode == 0){
 			String ar1[] = {"--train", "true", "--model-file", "carCRF","train/processedTrain"};
@@ -53,11 +53,8 @@ public class SequenceTagging {
 			}
 
 		}else if(mode == 2){
-
-			for(File file : new File("test/labeled/").listFiles() ){
-				String[] ar2 = {"--test", "perclass" , "--model-file", "carCRF",  file.getAbsolutePath()};
-				SimpleTagger.main(ar2);
-			}
+			String[] ar2 = {"--test", "perclass" , "--model-file", "carCRF",  "test/processed_new_sites"};
+			SimpleTagger.main(ar2);
 		}
 
 

@@ -26,8 +26,9 @@ public class Preprocessor {
 	public static void main(String[] args) throws IOException{
 		Preprocessor pro = new Preprocessor();
 		
-		pro.generateProcessedTrain("train/raw/", "train/processedTrain");
-		pro.generateProcessedTest("test/raw/", "test/processed/");
+		pro.generateProcessed("train/raw/", "train/processedTrain");
+		pro.generateProcessed("test/raw/new_sites", "test/processed_new_sites");
+		pro.generateProcessed("test/raw/old_sites", "test/processed_old_sites");
 	}
 	
 	private void addFeature(ArrayList<ArrayList<String>> ar, String pattern, String feature){
@@ -46,46 +47,7 @@ public class Preprocessor {
 		}
 	}
 
-	private void generateProcessedTest(String raw, String processed) throws IOException {
-		File rawTests[] = new File(raw).listFiles();
-
-		int i=0;
-		for(File rawTest : rawTests){
-			ArrayList<ArrayList<String>> ar=  new ArrayList<ArrayList<String>>();
-
-			Scanner in = new Scanner(rawTest);
-			String line = in.nextLine();
-
-			if(line.length() > 0){
-
-				String words[] = line.split(" ");
-
-				for(int x=0;x < words.length;x++){
-					ar.add(new ArrayList<String>());
-					ar.get(x).add(words[x]);
-				}
-
-				ar = processInstance(ar);
-
-				FileWriter fw = new FileWriter(processed + (i++));
-
-
-				for(int x=0;x<ar.size();x++){	
-					for(int y=0;y<ar.get(x).size();y++){
-						if(y != 0) fw.write(" ");
-						fw.write(ar.get(x).get(y));
-					}
-					fw.write("\n");
-				}
-				fw.flush();
-				fw.close();
-
-			}
-
-		}
-	}
-	
-	public void generateProcessedTrain(String rawBaseLocation, String baseFileLocation)
+	public void generateProcessed(String rawBaseLocation, String baseFileLocation)
 			throws FileNotFoundException, UnsupportedEncodingException{
 		File folder = new File(rawBaseLocation);
 		File files[] = folder.listFiles();

@@ -1,0 +1,130 @@
+bmw 1 all_capitalized capitalized marca
+328i 2 numerical_and_other numerical modelo
+gt 3 all_capitalized capitalized combustivel
+2.0 4 dot numerical_and_other numerical cilindradas
+16v 5 capitalized numerical_and_other numerical valvulas
+4p 6 capitalized numerical_and_other numerical portas
+r$125.990,00 7 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+bmw 1 all_capitalized capitalized marca
+316i 2 numerical_and_other numerical modelo
+sedan 3 length_bigger_then_4 capitalized versao
+turbo 4 length_bigger_then_4 capitalized combustivel
+1.6 5 dot numerical_and_other numerical cilindradas
+8v 6 capitalized numerical_and_other numerical valvulas
+4p 7 capitalized numerical_and_other numerical portas
+r$95.900,00 8 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+bmw 1 all_capitalized capitalized marca
+320i 2 numerical_and_other numerical modelo
+active 3 length_bigger_then_4 capitalized versao
+turbo 4 length_bigger_then_4 capitalized combustivel
+flex 5 capitalized combustivel
+2.0 6 dot numerical_and_other numerical cilindradas
+16v 7 capitalized numerical_and_other numerical valvulas
+4p 8 capitalized numerical_and_other numerical portas
+r$118.990,00 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+chrysler 1 length_bigger_then_4 all_capitalized capitalized marca
+pt 2 capitalized modelo
+cruiser 3 length_bigger_then_4 capitalized modelo
+classic 4 length_bigger_then_4 capitalized versao
+2.4 5 dot numerical_and_other numerical cilindradas
+16v 6 capitalized numerical_and_other numerical valvulas
+4p 7 capitalized numerical_and_other numerical portas
+r$30.990,00 8 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+honda 1 length_bigger_then_4 all_capitalized capitalized marca
+crv 2 capitalized modelo
+2.0 3 dot numerical_and_other numerical cilindradas
+lx 4 capitalized versao
+4 5 numerical tracao
+x 6 tracao
+2 7 numerical tracao
+16v 8 capitalized numerical_and_other numerical valvulas
+4p 9 capitalized numerical_and_other numerical portas
+r$40.800,00 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+honda 1 length_bigger_then_4 all_capitalized capitalized marca
+hr-v 2 capitalized modelo
+exl 3 capitalized versao
+1.8 4 dot numerical_and_other numerical cilindradas
+flexone 5 length_bigger_then_4 capitalized combustivel
+16v 6 capitalized numerical_and_other numerical valvulas
+4p 7 capitalized numerical_and_other numerical portas
+r$91.900,00 8 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+honda 1 length_bigger_then_4 all_capitalized capitalized marca
+civic 2 length_bigger_then_4 capitalized modelo
+1.8 3 dot numerical_and_other numerical cilindradas
+lxs 4 capitalized versao
+sedan 5 length_bigger_then_4 capitalized versao
+16v 6 capitalized numerical_and_other numerical valvulas
+flex 7 capitalized combustivel
+4p 8 capitalized numerical_and_other numerical portas
+r$34.990,00 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+honda 1 length_bigger_then_4 all_capitalized capitalized marca
+fit 2 capitalized modelo
+1.5 3 dot numerical_and_other numerical cilindradas
+lx 4 capitalized versao
+16v 5 capitalized numerical_and_other numerical valvulas
+flex 6 capitalized combustivel
+4p 7 capitalized numerical_and_other numerical portas
+r$54.990,00 8 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+honda 1 length_bigger_then_4 all_capitalized capitalized marca
+city 2 capitalized modelo
+1.5 3 dot numerical_and_other numerical cilindradas
+lx 4 capitalized versao
+16v 5 capitalized numerical_and_other numerical valvulas
+flex 6 capitalized combustivel
+4p 7 capitalized numerical_and_other numerical portas
+r$39.990,00 8 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+hyundai 1 length_bigger_then_4 all_capitalized capitalized marca
+veloster 2 length_bigger_then_4 capitalized modelo
+1.6 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+3p 5 capitalized numerical_and_other numerical portas
+r$57.990,00 6 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+hyundai 1 length_bigger_then_4 all_capitalized capitalized marca
+tucson 2 length_bigger_then_4 capitalized modelo
+2.0 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+4p 5 capitalized numerical_and_other numerical portas
+r$35.990,00 6 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+hyundai 1 length_bigger_then_4 all_capitalized capitalized marca
+hb20 2 capitalized numerical_and_other numerical modelo
+1.6 3 dot numerical_and_other numerical cilindradas
+comfort 4 length_bigger_then_4 capitalized versao
+16v 5 capitalized numerical_and_other numerical valvulas
+flex 6 capitalized combustivel
+r$35.990,00 7 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+hyundai 1 length_bigger_then_4 all_capitalized capitalized marca
+santa 2 length_bigger_then_4 capitalized modelo
+fã© 3 capitalized modelo
+3.5 4 dot numerical_and_other numerical combustivel
+24v 5 capitalized numerical_and_other numerical valvulas
+v6 6 capitalized numerical_and_other numerical versao
+4p 7 capitalized numerical_and_other numerical portas
+r$57.800,00 8 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+jac 1 all_capitalized capitalized marca
+j3 2 capitalized numerical_and_other numerical modelo
+1.4 3 dot numerical_and_other numerical cilindradas
+turin 4 length_bigger_then_4 capitalized versao
+16v 5 capitalized numerical_and_other numerical valvulas
+4p 6 capitalized numerical_and_other numerical portas
+r$19.990,00 7 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
+jac 1 all_capitalized capitalized marca
+j5 2 capitalized numerical_and_other numerical modelo
+1.5 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+4p 5 capitalized numerical_and_other numerical portas
+r$24.990,00 6 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
+
