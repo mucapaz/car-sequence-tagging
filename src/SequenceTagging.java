@@ -55,7 +55,7 @@ public class SequenceTagging {
 
 
 		}else if(mode == 2){
-			String[] ar2 = {"--test", "perclass" , "--model-file", "carCRF",  "test/processed_new_sites"};
+			String[] ar2 = {"--test", "perclass" , "--model-file", "carCRF",  "test/processed_old_sites"};
 			SimpleTagger.main(ar2);
 		}
 
