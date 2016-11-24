@@ -61,47 +61,6 @@ public class Preprocessor {
 		saveToFile(ar,baseFileLocation);
 
 	}
-
-	private void generateProcessedTest(String raw, String processed) throws IOException {
-		File rawTests[] = new File(raw).listFiles();
-
-		int i=0;
-		for(File rawTest : rawTests){
-			ArrayList<ArrayList<String>> ar=  new ArrayList<ArrayList<String>>();
-
-			Scanner in = new Scanner(rawTest);
-			String line = in.nextLine();
-
-			if(line.length() > 0){
-
-				String words[] = line.split(" ");
-
-				for(int x=0;x < words.length;x++){
-					ar.add(new ArrayList<String>());
-					ar.get(x).add(words[x]);
-					
-					
-				}
-				System.out.println(words[1]);
-				ar = processInstance(ar);
-
-				FileWriter fw = new FileWriter(processed + (i++));
-
-
-				for(int x=0;x<ar.size();x++){	
-					for(int y=0;y<ar.get(x).size();y++){
-						if(y != 0) fw.write(" ");
-						fw.write(ar.get(x).get(y));
-					}
-					fw.write("\n");
-				}
-				fw.flush();
-				fw.close();
-
-			}
-
-		}
-	}
 	
 	public void saveToFile(ArrayList<ArrayList<ArrayList<String>>> ar, String baseFileLocation)
 			throws FileNotFoundException, UnsupportedEncodingException{
