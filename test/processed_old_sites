@@ -1,3 +1,40 @@
+fiat 1 capitalized marca
+strada 2 length_bigger_then_4 capitalized modelo
+1.4 3 dot numerical_and_other numerical cilindradas
+8v 4 capitalized numerical_and_other numerical valvulas
+manual 5 length_bigger_then_4 capitalized cambio
+2014/2015 6 length_bigger_then_4 numerical_and_other numerical ano
+2 7 numerical portas
+flex 8 capitalized combustivel
+31.150 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+38.000,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+vermelho 12 length_bigger_then_4 capitalized cor
+bmw 1 capitalized marca
+x3 2 capitalized numerical_and_other numerical modelo
+2.0 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+automã¡tico 5 length_bigger_then_4 capitalized cambio
+2013/2014 6 length_bigger_then_4 numerical_and_other numerical ano
+4p 7 capitalized numerical_and_other numerical portas
+gasolina 8 length_bigger_then_4 capitalized combustivel
+22.000 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+144.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+branco 12 length_bigger_then_4 capitalized cor
+4x4 13 capitalized numerical_and_other numerical tracao
+fiat 1 capitalized marca
+palio 2 length_bigger_then_4 capitalized modelo
+1.8 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+automã¡tico 5 length_bigger_then_4 capitalized cambio
+2015 6 numerical ano
+4 7 numerical portas
+flex 8 capitalized combustivel
+7.000 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+52.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+azul 12 capitalized cor
 renault 1 length_bigger_then_4 all_capitalized capitalized marca
 kangoo 2 length_bigger_then_4 all_capitalized capitalized modelo
 1.6 3 dot numerical_and_other numerical cilindradas
@@ -7,7 +44,6 @@ hi-flex 5 length_bigger_then_4 all_capitalized capitalized combustivel
 c/ar 7 all_capitalized capitalized ar
 37.723km 8 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$41.980 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 volkswage 1 length_bigger_then_4 all_capitalized capitalized marca
 fox 2 all_capitalized capitalized modelo
 1.6 3 dot numerical_and_other numerical cilindradas
@@ -17,7 +53,6 @@ flex 5 all_capitalized capitalized combustivel
 c/ar 7 all_capitalized capitalized ar
 72.173km 8 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$33.310 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 volkswage 1 length_bigger_then_4 all_capitalized capitalized marca
 saveiro 2 length_bigger_then_4 all_capitalized capitalized modelo
 startline 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -28,7 +63,6 @@ flex 6 all_capitalized capitalized combustivel
 c/ar 8 all_capitalized capitalized ar
 41.979km 9 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$32.340 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 volkswage 1 length_bigger_then_4 all_capitalized capitalized marca
 saveiro 2 length_bigger_then_4 all_capitalized capitalized modelo
 trendline 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -39,7 +73,6 @@ flex 6 all_capitalized capitalized combustivel
 c/ar 8 all_capitalized capitalized ar
 49.452km 9 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$34.360 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 kia 1 all_capitalized capitalized marca
 sportage 2 length_bigger_then_4 all_capitalized capitalized modelo
 lx 3 all_capitalized capitalized versao
@@ -49,7 +82,18 @@ flex 5 all_capitalized capitalized combustivel
 c/ar 7 all_capitalized capitalized ar
 51.000km 8 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$77.090 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
+fiat 1 capitalized marca
+palio 2 length_bigger_then_4 capitalized modelo
+1.6 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+automã¡tico 5 length_bigger_then_4 capitalized cambio
+2013/2014 6 length_bigger_then_4 numerical_and_other numerical ano
+4 7 numerical portas
+flex 8 capitalized combustivel
+22.800 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+37.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+branco 12 length_bigger_then_4 capitalized cor
 fiat 1 all_capitalized capitalized marca
 siena 2 length_bigger_then_4 all_capitalized capitalized modelo
 el 3 all_capitalized capitalized versao
@@ -59,7 +103,6 @@ flex 5 all_capitalized capitalized combustivel
 c/ar 7 all_capitalized capitalized ar
 46.519km 8 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$29.040 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 fiat 1 all_capitalized capitalized marca
 doblo 2 length_bigger_then_4 all_capitalized capitalized modelo
 attractive 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -70,7 +113,6 @@ flex 6 all_capitalized capitalized combustivel
 c/ar 8 all_capitalized capitalized ar
 39.673km 9 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$44.000 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 fiat 1 all_capitalized capitalized marca
 doblo 2 length_bigger_then_4 all_capitalized capitalized modelo
 cargo 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -81,7 +123,6 @@ flex 6 all_capitalized capitalized combustivel
 c/ar 8 all_capitalized capitalized ar
 66.241km 9 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$34.140 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 fiat 1 all_capitalized capitalized marca
 doblo 2 length_bigger_then_4 all_capitalized capitalized modelo
 adventure 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -92,7 +133,6 @@ flex 6 all_capitalized capitalized combustivel
 c/ar 8 all_capitalized capitalized ar
 55.891km 9 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$51.460 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 fiat 1 all_capitalized capitalized marca
 strada 2 length_bigger_then_4 all_capitalized capitalized modelo
 adventure 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -103,7 +143,6 @@ flex 6 all_capitalized capitalized combustivel
 c/ar 8 all_capitalized capitalized ar
 52.512km 9 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$53.420 10 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
 ford 1 all_capitalized capitalized marca
 ecosport 2 length_bigger_then_4 all_capitalized capitalized modelo
 freestyle 3 length_bigger_then_4 all_capitalized capitalized versao
@@ -113,4 +152,174 @@ flex 5 all_capitalized capitalized combustivel
 c/ar 7 all_capitalized capitalized ar
 52.515km 8 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
 r$58.230 9 r$ length_bigger_then_4 dot all_capitalized capitalized numerical_and_other numerical valor
-
+fiat 1 capitalized marca
+strada 2 length_bigger_then_4 capitalized modelo
+1.8 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+automã¡tico 5 length_bigger_then_4 capitalized cambio
+2015/2016 6 length_bigger_then_4 numerical_and_other numerical ano
+3 7 numerical portas
+flex 8 capitalized combustivel
+8.112 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+64.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+cinza 12 length_bigger_then_4 capitalized cor
+fiat 1 capitalized marca
+idea 2 capitalized modelo
+1.6 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+automã¡tico 5 length_bigger_then_4 capitalized cambio
+2016 6 numerical ano
+4 7 numerical portas
+flex 8 capitalized combustivel
+100 9 numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+62.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+branco 12 length_bigger_then_4 capitalized cor
+fiat 1 capitalized marca
+strada 2 length_bigger_then_4 capitalized modelo
+1.4 3 dot numerical_and_other numerical cilindradas
+8v 4 capitalized numerical_and_other numerical valvulas
+manual 5 length_bigger_then_4 capitalized cambio
+2015/2016 6 length_bigger_then_4 numerical_and_other numerical ano
+3 7 numerical portas
+flex 8 capitalized combustivel
+64.300 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+22.000,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+vermelho 12 length_bigger_then_4 capitalized cor
+fiat 1 capitalized marca
+palio 2 length_bigger_then_4 capitalized modelo
+1.0 3 dot numerical_and_other numerical cilindradas
+8v 4 capitalized numerical_and_other numerical valvulas
+manual 5 length_bigger_then_4 capitalized cambio
+2015/2016 6 length_bigger_then_4 numerical_and_other numerical ano
+4 7 numerical portas
+flex 8 capitalized combustivel
+0 9 numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+40.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+vermelho 12 length_bigger_then_4 capitalized cor
+fiat 1 capitalized marca
+strada 2 length_bigger_then_4 capitalized modelo
+1.8 3 dot numerical_and_other numerical cilindradas
+16v 4 capitalized numerical_and_other numerical valvulas
+automã¡tico 5 length_bigger_then_4 capitalized cambio
+2014/2015 6 length_bigger_then_4 numerical_and_other numerical ano
+2 7 numerical portas
+flex 8 capitalized combustivel
+17.000 9 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 10 r$ all_capitalized capitalized valor
+59.900,00 11 length_bigger_then_4 dot numerical_and_other numerical valor
+branco 12 length_bigger_then_4 capitalized cor
+bmw 1 capitalized marca
+x5 2 capitalized numerical_and_other numerical modelo
+3.0 3 dot numerical_and_other numerical cilindradas
+automã¡tico 4 length_bigger_then_4 capitalized cambio
+2016/2017 5 length_bigger_then_4 numerical_and_other numerical ano
+4p 6 capitalized numerical_and_other numerical portas
+diesel 7 length_bigger_then_4 capitalized combustivel
+1.200 8 length_bigger_then_4 dot numerical_and_other numerical quilometragem
+r$ 9 r$ all_capitalized capitalized valor
+385.900,00 10 length_bigger_then_4 dot numerical_and_other numerical valor
+branco 11 length_bigger_then_4 capitalized cor
+4x4 12 capitalized numerical_and_other numerical tracao
+volkswagen 1 length_bigger_then_4 capitalized marca
+gol 2 capitalized modelo
+1.0 3 dot numerical_and_other numerical cilindradas
+city 4 capitalized versao
+tec 5 capitalized versao
+8v 6 capitalized numerical_and_other numerical valvulas
+flex 7 capitalized combustivel
+4p 8 capitalized numerical_and_other numerical portas
+manual 9 length_bigger_then_4 capitalized cambio
+30.000km 10 km length_bigger_then_4 dot capitalized numerical_and_other numerical quilometragem
+2014 11 numerical ano
+suzuki 1 length_bigger_then_4 all_capitalized capitalized marca
+grand 2 length_bigger_then_4 all_capitalized capitalized modelo
+vitara 3 length_bigger_then_4 all_capitalized capitalized modelo
+2.0 4 dot numerical_and_other numerical cilindradas
+4x2 5 capitalized numerical_and_other numerical tracao
+16v 6 capitalized numerical_and_other numerical valvulas
+140cv 7 length_bigger_then_4 capitalized numerical_and_other numerical cavalos
+4p 8 capitalized numerical_and_other numerical portas
+gasolina 9 length_bigger_then_4 all_capitalized capitalized combustivel
+automã�tico 10 length_bigger_then_4 all_capitalized capitalized cambio
+volvo 1 length_bigger_then_4 all_capitalized capitalized marca
+s60 2 capitalized numerical_and_other numerical modelo
+2.0 3 dot numerical_and_other numerical cilindradas
+kinetic 4 length_bigger_then_4 all_capitalized capitalized versao
+16v 5 capitalized numerical_and_other numerical valvulas
+gasolina 6 length_bigger_then_4 all_capitalized capitalized combustivel
+4p 7 capitalized numerical_and_other numerical portas
+automã�tico 8 length_bigger_then_4 all_capitalized capitalized cambio
+land 1 all_capitalized capitalized marca
+rover 2 length_bigger_then_4 all_capitalized capitalized marca
+discovery 3 length_bigger_then_4 all_capitalized capitalized modelo
+sport 4 length_bigger_then_4 all_capitalized capitalized modelo
+2.0 5 dot numerical_and_other numerical cilindradas
+se 6 all_capitalized capitalized tipo
+turbo 7 length_bigger_then_4 all_capitalized capitalized motor
+si4 8 capitalized numerical_and_other numerical versao
+7lug. 9 length_bigger_then_4 dot capitalized numerical_and_other numerical lugares
+240cv 10 length_bigger_then_4 capitalized numerical_and_other numerical cavalos
+4p 11 capitalized numerical_and_other numerical portas
+gasolina 12 length_bigger_then_4 all_capitalized capitalized combustivel
+automã�tico 13 length_bigger_then_4 all_capitalized capitalized cambio
+jaguar 1 length_bigger_then_4 all_capitalized capitalized marca
+xf 2 all_capitalized capitalized modelo
+2.0 3 dot numerical_and_other numerical cilindradas
+luxury 4 length_bigger_then_4 all_capitalized capitalized versao
+gtdi 5 all_capitalized capitalized versao
+240cv 6 length_bigger_then_4 capitalized numerical_and_other numerical cavalos
+4p 7 capitalized numerical_and_other numerical portas
+gasolina 8 length_bigger_then_4 all_capitalized capitalized combustivel
+automã�tico 9 length_bigger_then_4 all_capitalized capitalized cambio
+bmw 1 all_capitalized capitalized marca
+x5 2 capitalized numerical_and_other numerical modelo
+3.0 3 dot numerical_and_other numerical cilindradas
+258cv 4 length_bigger_then_4 capitalized numerical_and_other numerical cavalos
+24v 5 capitalized numerical_and_other numerical valvulas
+diesel 6 length_bigger_then_4 all_capitalized capitalized combustivel
+4p 7 capitalized numerical_and_other numerical portas
+automã�tico 8 length_bigger_then_4 all_capitalized capitalized cambio
+4x4 9 capitalized numerical_and_other numerical tracao
+turbo 10 length_bigger_then_4 all_capitalized capitalized motor
+toyota 1 length_bigger_then_4 all_capitalized capitalized marca
+hilux 2 length_bigger_then_4 all_capitalized capitalized  modelo
+2.8 3 dot numerical_and_other numerical cilindradas
+srv 4 all_capitalized capitalized tipo
+16v 5 capitalized numerical_and_other numerical valvulas
+picape 6 length_bigger_then_4 all_capitalized capitalized versao
+diesel 7 length_bigger_then_4 all_capitalized capitalized combustivel
+4p 8 capitalized numerical_and_other numerical portas
+automã�tico 9 length_bigger_then_4 all_capitalized capitalized cambio
+4x4 10 capitalized numerical_and_other numerical tracao
+turbo 11 length_bigger_then_4 all_capitalized capitalized motor
+intercooler 12 length_bigger_then_4 all_capitalized capitalized motor
+shineray 1 length_bigger_then_4 all_capitalized capitalized marca
+minitruck 2 length_bigger_then_4 all_capitalized capitalized modelo
+1.0 3 dot numerical_and_other numerical cilindradas
+8v 4 capitalized numerical_and_other numerical valvulas
+gasolina 5 length_bigger_then_4 all_capitalized capitalized combustivel
+2p 6 capitalized numerical_and_other numerical portas
+manual 7 length_bigger_then_4 all_capitalized capitalized cambio
+porsche 1 length_bigger_then_4 all_capitalized capitalized marca
+boxster 2 length_bigger_then_4 all_capitalized capitalized modelo
+3.4 3 dot numerical_and_other numerical cilindradas
+s 4 all_capitalized capitalized tipo
+24v 5 capitalized numerical_and_other numerical valvulas
+gasolina 6 length_bigger_then_4 all_capitalized capitalized combustivel
+2p 7 capitalized numerical_and_other numerical portas
+manual 8 length_bigger_then_4 all_capitalized capitalized cambio
+porsche 1 length_bigger_then_4 all_capitalized capitalized marca
+cayenne 2 length_bigger_then_4 all_capitalized capitalized modelo
+4.8 3 dot numerical_and_other numerical cilindradas
+turbo 4 length_bigger_then_4 all_capitalized capitalized motor
+s 5 all_capitalized capitalized tipo
+4x4 6 capitalized numerical_and_other numerical tracao
+v-8 7 all_capitalized capitalized numerical_and_other numerical motor
+500cv 8 length_bigger_then_4 capitalized numerical_and_other numerical cavalos
+4p 9 capitalized numerical_and_other numerical portas
+gasolina 10 length_bigger_then_4 all_capitalized capitalized combustivel
+tiptronic 11 length_bigger_then_4 all_capitalized capitalized cambio
