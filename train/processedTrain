@@ -548,7 +548,7 @@ volkswagen 1 length_bigger_then_4 capitalized marca
 voyage 2 length_bigger_then_4 capitalized modelo
 1.0 3 dot numerical_and_other numerical cilindradas
 tec 4 all_capitalized capitalized motor
-city 5 capitalized versai
+city 5 capitalized versao
 (flex) 6 length_bigger_then_4 parenthesis capitalized combustivel
 2015 7 numerical ano
 ford 1 all_capitalized capitalized marca
@@ -1339,7 +1339,7 @@ easy 4 capitalized versao
 (flex) 6 length_bigger_then_4 parenthesis capitalized combustivel
 4p 7 numerical_and_other numerical portas
 2017 8 numerical ano
-nissan 1 length_bigger_then_4 capitalized marcas
+nissan 1 length_bigger_then_4 capitalized marca
 march 2 length_bigger_then_4 capitalized modelo
 1.0 3 dot numerical_and_other numerical cilindradas
 12v 4 capitalized numerical_and_other numerical valvulas
@@ -1376,7 +1376,7 @@ evo 5 capitalized versao
 2015 7 numerical ano
 hyundai 1 length_bigger_then_4 capitalized marca
 hb20x 2 length_bigger_then_4 capitalized numerical_and_other numerical modelo
-style 3 length_bigger_then_4 capitalized versaox
+style 3 length_bigger_then_4 capitalized versao
 1.6 4 dot numerical_and_other numerical cilindradas
 2016 5 numerical ano
 chevrolet 1 length_bigger_then_4 capitalized marca
